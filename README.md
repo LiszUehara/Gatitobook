@@ -4,3 +4,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Este projeto é implementado junto ao curso da Alura.
 
+### É uma rede social para gatos. 
+
+##### CSS criado com bootstrap
