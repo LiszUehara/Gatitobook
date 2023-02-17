@@ -30,10 +30,12 @@
 
     <app-mensagem
       *ngIf = "campoSenha.invalid && campoSenha.touched"
-      mensagem="Senha Obrigatorio"
+      mensagem="Senha Obrigatoria"
     ></app-mensagem>
   </div>
 
 
   <button type="submit" class="btn btn-primary btn-block" [disabled]="loginForm.invalid">Login</button>
 </form>
+
+<p>Não é usuario?<a [routerLink]="['novousuario']">Se cadastre!</a></p>
